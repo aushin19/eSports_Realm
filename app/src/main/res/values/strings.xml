@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">eSports Realm</string>
+    <string name="rupee">₹</string>
+    <string name="transactionInfo">Now is the winter of our discontent
+    Made glorious summer by this sun of York;
+    And all the clouds that lourd upon our house
+    In the deep bosom of the ocean buried.
+    Now are our brows bound with victorious wreaths;</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="msg_subscribed">Subscribed</string>
+    <string name="msg_subscribe_failed">Not Subscribed</string>
+    <string name="withdraw_policy">We have successfully received your withdraw request and respected amount will be take 5-6 days
+        to reflect in your account</string>
+</resources>

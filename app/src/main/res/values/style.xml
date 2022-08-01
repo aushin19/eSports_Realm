@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeColor">
+    <item name="colorAccent">@color/green</item>
+    </style>
+
+    <style name="BoxTheme">
+        <item name="colorOnSurface">#1B3D60</item>
+    </style>
+
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">#8004B232</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="hintTextColor">@color/green</item>
+    </style>
+
+    <style name="RegistrationTIL" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">#80202020</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="hintTextColor">@color/darkGrey</item>
+    </style>
+</resources>

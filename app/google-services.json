@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "533653880306",
+    "firebase_url": "https://esportrealm-dashboard-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "esportrealm-dashboard",
+    "storage_bucket": "esportrealm-dashboard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533653880306:android:2d271526a41bbed803ff6b",
+        "android_client_info": {
+          "package_name": "com.cornerdesk.esportrealm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533653880306-27qvhl9nr2l47qn75vmp3evh7fpc23p1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cornerdesk.esportrealm",
+            "certificate_hash": "183a807bba4c363bd9a6d16acbd3e585aae0eee5"
+          }
+        },
+        {
+          "client_id": "533653880306-gl14u1ji2fu14e7l7pq8cfbol8smbk46.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cornerdesk.esportrealm",
+            "certificate_hash": "47980b2dbe2371f635f2ac3835eeed121e0713aa"
+          }
+        },
+        {
+          "client_id": "533653880306-dngen7ho0sbjn8c7ehj4ks9g9csjh4uf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-F4IdiKQ68PIKusw3ahRZTDjMAD6BFzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533653880306-dngen7ho0sbjn8c7ehj4ks9g9csjh4uf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533653880306:android:eb6ad571f2045fe203ff6b",
+        "android_client_info": {
+          "package_name": "com.example.nbotificationtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533653880306-dngen7ho0sbjn8c7ehj4ks9g9csjh4uf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-F4IdiKQ68PIKusw3ahRZTDjMAD6BFzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533653880306-dngen7ho0sbjn8c7ehj4ks9g9csjh4uf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

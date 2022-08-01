@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/registration_CL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="By joining this contest, you accept eSport Realm T&amp;C and also agree to be contacted by eSport Realm and their partner."
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/submitReg_BTN" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/submitReg_BTN"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#1A04B232"
+                android:clickable="true"
+                android:fontFamily="@font/title"
+                android:outlineAmbientShadowColor="#1A04B232"
+                android:outlineSpotShadowColor="#1A04B232"
+                android:text="SUBMIT"
+                android:textColor="@color/green"
+                android:textSize="20sp"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintEnd_toEndOf="@+id/charID_TIL"
+                app:layout_constraintStart_toStartOf="@+id/charID_TIL"
+                app:layout_constraintTop_toBottomOf="@+id/charID_TIL"
+                app:rippleColor="#3304B232"></com.google.android.material.button.MaterialButton>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/charID_TIL"
+                style="@style/LoginTextInputLayoutStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Character ID"
+                android:textColorHint="@color/green"
+                app:layout_constraintEnd_toEndOf="@+id/userName_TIL"
+                app:layout_constraintStart_toStartOf="@+id/userName_TIL"
+                app:layout_constraintTop_toBottomOf="@+id/userName_TIL"
+                app:startIconDrawable="@drawable/ic_code"
+                app:startIconTint="@color/green">
+
+                <!--this is the actual edit text which takes the input-->
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/charID_TB"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/green"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/green"
+                    android:textColorHint="@color/green"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/userName_TIL"
+                style="@style/LoginTextInputLayoutStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:hint="Game Username"
+                android:textColorHint="@color/green"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/textView55"
+                app:layout_constraintTop_toBottomOf="@+id/textView55"
+                app:startIconDrawable="@drawable/ic_user"
+                app:startIconTint="@color/green">
+
+                <!--this is the actual edit text which takes the input-->
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/userName_TB"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/green"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/green"
+                    android:textColorHint="@color/green"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Almost there!"
+                android:textColor="@color/darkGrey"
+                android:textSize="30sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:text="Now fill up this last step carefully to register yourself, Good Luck!"
+                android:textSize="13sp"
+                app:layout_constraintStart_toStartOf="@+id/textView53"
+                app:layout_constraintTop_toBottomOf="@+id/textView53" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/addMoneyFail_CL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/failReason_TV"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Payment Id : dsgsdiouhbfdchsabjc"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toTopOf="@+id/payFail_BTN"
+                app:layout_constraintEnd_toEndOf="@+id/textView27"
+                app:layout_constraintStart_toStartOf="@+id/textView27"
+                app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Payment Failed!"
+                android:textColor="@color/darkGrey"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView6"
+                app:layout_constraintStart_toStartOf="@+id/lottieAnimationView6"
+                app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView6" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationView6"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/fail" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/payFail_BTN"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/trans_red"
+                android:elevation="20dp"
+                android:fontFamily="@font/roboto_bold"
+                android:outlineAmbientShadowColor="@color/trans_red"
+                android:outlineSpotShadowColor="@color/trans_red"
+                android:text="CONTINUE"
+                android:textColor="@color/fail"
+                android:visibility="gone"
+                app:cornerRadius="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:rippleColor="#33FC5C5E" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/addMoneySuccess_CL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/paySuccess_BTN"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/trans_green"
+                android:elevation="20dp"
+                android:fontFamily="@font/roboto_bold"
+                android:outlineAmbientShadowColor="@color/trans_green"
+                android:outlineSpotShadowColor="@color/trans_green"
+                android:text="CONTINUE"
+                android:textColor="@color/green"
+                android:visibility="gone"
+                app:cornerRadius="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationView5"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/success"
+                app:lottie_repeatMode="reverse" />
+
+            <TextView
+                android:id="@+id/paySuccessTitle_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Payment Successfull!"
+                android:textColor="@color/darkGrey"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView5"
+                app:layout_constraintStart_toStartOf="@+id/lottieAnimationView5"
+                app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView5" />
+
+            <TextView
+                android:id="@+id/payID_TV"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Payment Id : dsgsdiouhbfdchsabjc"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toTopOf="@+id/paySuccess_BTN"
+                app:layout_constraintEnd_toEndOf="@+id/paySuccessTitle_TV"
+                app:layout_constraintStart_toStartOf="@+id/paySuccessTitle_TV"
+                app:layout_constraintTop_toBottomOf="@+id/paySuccessTitle_TV" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/refer_CL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/dotted_line"
+                android:elevation="5dp"
+                android:outlineAmbientShadowColor="@color/font"
+                android:outlineSpotShadowColor="@color/darkGrey"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView20">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:letterSpacing="0.3"
+                    android:text="ABCD123"
+                    android:textColor="@color/green"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:fontFamily="@font/roboto_bold" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/ic_copy"
+                    android:backgroundTint="@color/green"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationView4"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView33"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/friends" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/round_digital"
+                android:text="Get 1500 Coins"
+                android:textColor="#845EC2"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView4"
+                app:layout_constraintStart_toStartOf="@+id/lottieAnimationView4"
+                app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView4" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="For every new your you refer"
+                android:textColor="@color/darkGrey"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView7"
+                app:layout_constraintStart_toStartOf="@+id/textView7"
+                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="share your referral code form here"
+                android:textColor="@color/darkGrey"
+                android:textSize="10sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView19"
+                app:layout_constraintStart_toStartOf="@+id/textView19"
+                app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
+                android:elevation="10dp"
+                android:outlineAmbientShadowColor="#4D845EC2"
+                android:outlineSpotShadowColor="#4D845EC2"
+                app:cardBackgroundColor="#4D845EC2"
+                app:cardCornerRadius="50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout4">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="INVITE"
+                        android:textColor="#845EC2"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/round_digital"
+                android:text="Earn Free Coins"
+                android:textColor="#845EC2"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/withdrawReq_CL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationView2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:lottie_autoPlay="true"
+                app:lottie_rawRes="@raw/withdraw" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/title"
+                android:text="Available Balance"
+                android:textColor="@color/darkGrey"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="@+id/currentCash_TV"
+                app:layout_constraintTop_toBottomOf="@+id/currentCash_TV" />
+
+            <EditText
+                android:id="@+id/amt_TB"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#8004B232"
+                android:ems="10"
+                android:fontFamily="@font/roboto_bold"
+                android:hint="Enter Amount"
+                android:inputType="number"
+                android:textColor="#8004B232"
+                android:textColorHint="#8004B232"
+                app:layout_constraintStart_toStartOf="@+id/lottieAnimationView2"
+                app:layout_constraintTop_toBottomOf="@+id/upiID_RBTN" />
+
+            <EditText
+                android:id="@+id/detail_TB"
+                android:layout_width="275dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="#8004B232"
+                android:ems="10"
+                android:fontFamily="@font/roboto_bold"
+                android:hint="Enter UPI ID / Mobile Number"
+                android:inputType="textPersonName"
+                android:textColor="#8004B232"
+                android:textColorHint="#8004B232"
+                app:layout_constraintStart_toStartOf="@+id/lottieAnimationView2"
+                app:layout_constraintTop_toBottomOf="@+id/amt_TB" />
+
+            <TextView
+                android:id="@+id/currentCash_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/round_digital"
+                android:text="₹600"
+                android:textColor="@color/green"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="@+id/lottieAnimationView2"
+                app:layout_constraintStart_toEndOf="@+id/lottieAnimationView2"
+                app:layout_constraintTop_toTopOf="@+id/lottieAnimationView2" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/redeem_BTN"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/trans_green"
+                android:elevation="5dp"
+                android:fontFamily="@font/roboto_bold"
+                android:outlineAmbientShadowColor="@color/trans_green"
+                android:outlineSpotShadowColor="@color/trans_green"
+                android:text="REDEEM"
+                android:textColor="@color/green"
+                android:textSize="16sp"
+                app:cornerRadius="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/detail_TB"
+                app:rippleColor="#3304B232" />
+
+            <RadioButton
+                android:id="@+id/upiID_RBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:checked="true"
+                android:fontFamily="@font/title"
+                android:text="UPI ID / Mobile Number"
+                android:textColor="@color/darkGrey"
+                android:textSize="12sp"
+                android:theme="@style/ThemeColor"
+                app:layout_constraintStart_toStartOf="@+id/lottieAnimationView2"
+                app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView2" />
+
+            <RadioButton
+                android:id="@+id/paytm_RBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/title"
+                android:text="Paytm Number"
+                android:textColor="@color/darkGrey"
+                android:textSize="12sp"
+                android:theme="@style/ThemeColor"
+                app:layout_constraintBottom_toBottomOf="@+id/upiID_RBTN"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/upiID_RBTN" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/moreInfo_CL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/infoImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+
+                android:layout_marginTop="30dp"
+                android:background="@drawable/ic_cash_won"
+                android:backgroundTint="@color/green"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/infoTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/title"
+                android:text="Hey! there"
+                android:textColor="@color/darkGrey"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/infoImage"
+                app:layout_constraintStart_toEndOf="@+id/infoImage"
+                app:layout_constraintTop_toTopOf="@+id/infoImage" />
+
+            <TextView
+                android:id="@+id/infoMessage"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="@string/transactionInfo"
+                android:textAlignment="textStart"
+                android:textColor="@color/darkGrey"
+                android:textSize="12sp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/infoButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/infoImage"
+                app:layout_constraintTop_toBottomOf="@+id/infoImage" />
+
+            <Button
+                android:id="@+id/infoButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/round_all"
+                android:backgroundTint="@color/lightGreen"
+                android:text="Okay!"
+                android:textColor="@color/font"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/addCoin_CL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_top"
+            android:backgroundTint="#1A04B232"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationView8"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toTopOf="@+id/constraintLayout12"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="false"
+                app:lottie_rawRes="@raw/majja" />
+
+            <TextView
+                android:id="@+id/coinBal_TV3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/round_digital"
+                android:text="100"
+                android:textAlignment="center"
+                android:textColor="@color/green"
+                android:textSize="60sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.55"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/title"
+                android:text="Currently in your wallet"
+                android:textColor="@color/green"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/lottieAnimationView8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/coinBal_TV3" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/zcash"
+                app:layout_constraintBottom_toBottomOf="@+id/coinBal_TV3"
+                app:layout_constraintEnd_toStartOf="@+id/coinBal_TV3" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_top"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView8">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/zcash"
+                        app:layout_constraintBottom_toBottomOf="@+id/amtAddDisplay_TV"
+                        app:layout_constraintStart_toEndOf="@+id/amtAddDisplay_TV"
+                        app:layout_constraintTop_toTopOf="@+id/amtAddDisplay_TV" />
+
+                    <EditText
+                        android:id="@+id/addAmt_TB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:backgroundTint="@color/back"
+                        android:enabled="false"
+                        android:fontFamily="@font/roboto_bold"
+                        android:inputType="number"
+                        android:text="₹19"
+                        android:textAlignment="center"
+                        android:textColor="@color/darkGrey"
+                        android:textSize="25sp"
+                        app:layout_constraintEnd_toStartOf="@+id/amtAddDisplay_TV"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/amt4_BTN"
+                        android:layout_width="75dp"
+                        android:layout_height="40dp"
+                        android:layout_marginEnd="30dp"
+                        android:backgroundTint="#1A04B232"
+                        android:fontFamily="@font/roboto_bold"
+                        android:outlineAmbientShadowColor="#1A04B232"
+                        android:outlineSpotShadowColor="#1A04B232"
+                        android:text="+₹80"
+                        android:textColor="@color/green"
+                        android:textSize="13sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/amt3_BTN"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/amt3_BTN"
+                        app:strokeColor="@color/green"
+                        app:strokeWidth="1dp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/amt3_BTN"
+                        android:layout_width="75dp"
+                        android:layout_height="40dp"
+                        android:layout_marginEnd="10dp"
+                        android:backgroundTint="#1A04B232"
+                        android:fontFamily="@font/roboto_bold"
+                        android:outlineAmbientShadowColor="#1A04B232"
+                        android:outlineSpotShadowColor="#1A04B232"
+                        android:text="+₹65"
+                        android:textColor="@color/green"
+                        android:textSize="13sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/amt2_BTN"
+                        app:layout_constraintEnd_toStartOf="@+id/amt4_BTN"
+                        app:layout_constraintStart_toEndOf="@+id/amt2_BTN"
+                        app:layout_constraintTop_toTopOf="@+id/amt2_BTN"
+                        app:strokeColor="@color/green"
+                        app:strokeWidth="1dp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/amt2_BTN"
+                        android:layout_width="75dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:backgroundTint="#1A04B232"
+                        android:fontFamily="@font/roboto_bold"
+                        android:outlineAmbientShadowColor="#1A04B232"
+                        android:outlineSpotShadowColor="#1A04B232"
+                        android:text="+₹30"
+                        android:textColor="@color/green"
+                        android:textSize="13sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/amt1_BTN"
+                        app:layout_constraintEnd_toStartOf="@+id/amt3_BTN"
+                        app:layout_constraintStart_toEndOf="@+id/amt1_BTN"
+                        app:layout_constraintTop_toTopOf="@+id/amt1_BTN"
+                        app:strokeColor="@color/green"
+                        app:strokeWidth="1dp" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/title"
+                        android:text="How much coins would you like to add?"
+                        android:textColor="@color/green"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/amt1_BTN"
+                        android:layout_width="70dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="10dp"
+                        android:backgroundTint="#1A04B232"
+                        android:fontFamily="@font/roboto_bold"
+                        android:outlineAmbientShadowColor="#1A04B232"
+                        android:outlineSpotShadowColor="#1A04B232"
+                        android:text="+₹19"
+                        android:textColor="@color/green"
+                        android:textSize="13sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/addAmt_TB"
+                        app:strokeColor="@color/green"
+                        app:strokeWidth="1dp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/addMoney_FBTN"
+                        style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                        android:layout_width="250dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/round_all"
+                        android:backgroundTint="#4004B232"
+                        android:fontFamily="@font/roboto_bold"
+                        android:outlineAmbientShadowColor="#1A04B232"
+                        android:outlineSpotShadowColor="#1A04B232"
+                        android:text="Add Coins"
+                        android:textColor="@color/green"
+                        android:visibility="visible"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="5dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="@+id/amt4_BTN"
+                        app:layout_constraintStart_toStartOf="@+id/amt1_BTN"
+                        app:layout_constraintTop_toBottomOf="@+id/amt3_BTN">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/imageView20"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_marginStart="2dp"
+                                android:background="@drawable/zcash"
+                                app:layout_constraintBottom_toBottomOf="@+id/addCoin_TV"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.0"
+                                app:layout_constraintStart_toEndOf="@+id/addCoin_TV"
+                                app:layout_constraintTop_toTopOf="@+id/addCoin_TV" />
+
+                            <TextView
+                                android:id="@+id/addCoin_TV"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="ADD 190"
+                                android:textColor="@color/green"
+                                android:textSize="16sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.45"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/amtAddDisplay_TV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="x 10 = 190"
+                        android:textColor="@color/grey"
+                        android:textSize="25sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/addAmt_TB"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.4"
+                        app:layout_constraintStart_toStartOf="@+id/textView22"
+                        app:layout_constraintTop_toTopOf="@+id/addAmt_TB"
+                        app:layout_constraintVertical_bias="0.41000003" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/joinContest_CL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/addMoneyContest_BTN"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="#1AFC5C5E"
+                android:elevation="1dp"
+                android:outlineAmbientShadowColor="#1AFC5C5E"
+                android:outlineSpotShadowColor="#1AFC5C5E"
+                android:text="ADD COINS"
+                android:textColor="@color/fail"
+                android:visibility="gone"
+                app:cornerRadius="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView13"
+                app:rippleColor="#33FC5C5E" />
+
+            <Button
+                android:id="@+id/moreInfo_BTN2"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/ic_info"
+                android:backgroundTint="@color/green"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="@+id/textView18"
+                app:layout_constraintStart_toEndOf="@+id/textView18"
+                app:layout_constraintTop_toTopOf="@+id/textView18"
+                tools:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/zcash"
+                app:layout_constraintBottom_toBottomOf="@+id/toPayCoin_TV"
+                app:layout_constraintEnd_toStartOf="@+id/toPayCoin_TV" />
+
+            <TextView
+                android:id="@+id/toPayCoin_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="2500"
+                android:textColor="@color/darkGrey"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView37"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView37" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="To Pay"
+                android:textColor="@color/green"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/zcash"
+                app:layout_constraintBottom_toBottomOf="@+id/textView34"
+                app:layout_constraintEnd_toStartOf="@+id/textView34" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="0"
+                android:textColor="@color/darkGrey"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView18"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView18" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Coin Discount"
+                android:textColor="@color/darkGrey"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/zcash"
+                app:layout_constraintBottom_toBottomOf="@+id/entryCoin_TV"
+                app:layout_constraintEnd_toStartOf="@+id/entryCoin_TV" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/zcash"
+                app:layout_constraintBottom_toBottomOf="@+id/currentCoin_TV"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="CONFIRMATION"
+                android:textColor="@color/darkGrey"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/currentCoin_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/round_digital"
+                android:text="1000"
+                android:textColor="@color/darkGrey"
+                android:textSize="40sp"
+                app:layout_constraintStart_toEndOf="@+id/imageView2"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            <TextView
+                android:id="@+id/insufficientCoin_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Coins Available"
+                android:textColor="@color/darkGrey"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="@+id/currentCoin_TV"
+                app:layout_constraintTop_toBottomOf="@+id/currentCoin_TV" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Entry Fee"
+                android:textColor="@color/darkGrey"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/insufficientCoin_TV" />
+
+            <TextView
+                android:id="@+id/entryCoin_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="2500"
+                android:textColor="@color/darkGrey"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView11"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView11" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/joinContest_BTN"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="#1A04B232"
+                android:elevation="1dp"
+                android:outlineAmbientShadowColor="#1A04B232"
+                android:outlineSpotShadowColor="#1A04B232"
+                android:text="JOIN CONTEST"
+                android:textColor="@color/green"
+                android:visibility="visible"
+                app:cornerRadius="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView13"
+                app:rippleColor="#3304B232" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="By joining this contest, you accept eSport Realm T&amp;C and also agree to be contacted by eSport Realm and their partner."
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="-"
+                android:textColor="@color/darkGrey"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView18"
+                app:layout_constraintEnd_toStartOf="@+id/imageView16"
+                app:layout_constraintTop_toTopOf="@+id/textView18" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout3"
+                android:layout_width="0dp"
+                android:layout_height="0.5dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="@color/grey"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView18">
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/loginSuccess_CL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationView3"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/wait" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/title"
+                android:text="Please Wait!"
+                android:textColor="@color/darkGrey"
+                android:textSize="25sp"
+                app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView3"
+                app:layout_constraintStart_toStartOf="@+id/lottieAnimationView3"
+                app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView3" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="we are getting things ready for you!"
+                android:textColor="@color/grey"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/textView47"
+                app:layout_constraintStart_toStartOf="@+id/textView47"
+                app:layout_constraintTop_toBottomOf="@+id/textView47" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/signupSuccess_CL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationView"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/signup_success" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/title"
+                android:text="Congrats!"
+                android:textColor="@color/darkGrey"
+                android:textSize="25sp"
+                app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView"
+                app:layout_constraintStart_toStartOf="@+id/lottieAnimationView"
+                app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Your account created successfully!"
+                android:textColor="@color/grey"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/textView45"
+                app:layout_constraintStart_toStartOf="@+id/textView45"
+                app:layout_constraintTop_toBottomOf="@+id/textView45" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/close_IBTN"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="#909090"
+        android:src="@drawable/ic_close"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/font">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/font"
+        android:clickable="true"
+        android:outlineAmbientShadowColor="@color/darkGrey"
+        android:outlineSpotShadowColor="@color/darkGrey"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/matchFull_CL"
+                android:layout_width="65dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/outline"
+                android:backgroundTint="@color/fail"
+                android:clickable="true"
+                android:outlineAmbientShadowColor="@color/lightGreen"
+                android:outlineSpotShadowColor="@color/green"
+                android:visibility="gone"
+                app:cardElevation="5dp"
+                app:layout_constraintEnd_toEndOf="@+id/textView38"
+                app:layout_constraintTop_toBottomOf="@+id/textView38">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/matchFull_TV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="Contest Full"
+                        android:textColor="@color/fail"
+                        android:textSize="10sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/joined_CL"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/outline"
+                android:clickable="true"
+                android:outlineAmbientShadowColor="@color/lightGreen"
+                android:outlineSpotShadowColor="@color/green"
+                android:visibility="gone"
+                app:cardElevation="5dp"
+                app:layout_constraintEnd_toEndOf="@+id/textView38"
+                app:layout_constraintTop_toBottomOf="@+id/textView38">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/joined_TV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="Joined"
+                        android:textColor="@color/green"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/ic_award"
+                android:backgroundTint="@color/darkGrey"
+                app:layout_constraintEnd_toStartOf="@+id/matchNumber_TV"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                app:layout_constraintBottom_toBottomOf="@+id/perKill_TV"
+                app:layout_constraintEnd_toStartOf="@+id/perKill_TV"
+                app:layout_constraintTop_toTopOf="@+id/perKill_TV"
+                app:srcCompat="@drawable/zcash" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#1A04B232"
+                android:elevation="15dp"
+                android:outlineAmbientShadowColor="@color/green"
+                android:outlineSpotShadowColor="@color/green"
+                app:cardCornerRadius="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <cn.iwgang.countdownview.CountdownView
+                    android:id="@+id/mycountdown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    app:isConvertDaysToHours="false"
+                    app:isShowDay="true"
+                    app:isShowHour="true"
+                    app:isShowMinute="true"
+                    app:isShowSecond="true"
+                    app:isSuffixTextBold="true"
+                    app:isTimeTextBold="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:suffixDay="d"
+                    app:suffixDayLeftMargin="0.5dp"
+                    app:suffixGravity="bottom"
+                    app:suffixHour="h"
+                    app:suffixHourLeftMargin="0.5dp"
+                    app:suffixMinute="m"
+                    app:suffixMinuteLeftMargin="0.5dp"
+                    app:suffixSecond="s"
+                    app:suffixSecondLeftMargin="0dp"
+                    app:suffixTextColor="@color/green"
+                    app:suffixTextSize="10sp"
+                    app:timeTextColor="@color/green"
+                    app:timeTextSize="11sp" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/ic_map"
+                    android:backgroundTint="@color/green"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/map_TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Erangel (TPP)"
+                    android:textColor="@color/green"
+                    android:textSize="10sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+                    app:layout_constraintStart_toEndOf="@+id/imageView8"
+                    app:layout_constraintTop_toTopOf="@+id/imageView8" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/ic_user"
+                    android:backgroundTint="@color/green"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/map_TV"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/mode_TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Solo"
+                    android:textColor="@color/green"
+                    android:textSize="10sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+                    app:layout_constraintStart_toEndOf="@+id/imageView9"
+                    app:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="3dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Starts in"
+                    android:textColor="@color/green"
+                    android:textSize="10sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/mycountdown"
+                    app:layout_constraintEnd_toStartOf="@+id/mycountdown"
+                    app:layout_constraintTop_toTopOf="@+id/mycountdown" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/prizePool_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="₹1,000"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="@+id/textView35"
+                app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Prize Pool"
+                android:textColor="#505050"
+                android:textSize="10sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
+            <ProgressBar
+                android:id="@+id/spots_PB"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="20dp"
+                android:progress="76"
+                android:progressDrawable="@drawable/progress_corner"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/prizePool_TV"
+                app:layout_constraintTop_toBottomOf="@+id/priceDistVIew_CL" />
+
+            <TextView
+                android:id="@+id/spotsLeft_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="24 Spots Left"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toTopOf="@+id/constraintLayout7"
+                app:layout_constraintStart_toStartOf="@+id/spots_PB"
+                app:layout_constraintTop_toBottomOf="@+id/spots_PB" />
+
+            <TextView
+                android:id="@+id/spots_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="100 Spots"
+                android:textColor="#505050"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toTopOf="@+id/constraintLayout7"
+                app:layout_constraintEnd_toEndOf="@+id/spots_PB"
+                app:layout_constraintTop_toBottomOf="@+id/spots_PB" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/liveAnim_LT"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:outlineAmbientShadowColor="#1A04B232"
+                android:outlineSpotShadowColor="#1A04B232"
+                android:visibility="visible"
+                app:cardBackgroundColor="#E604B232"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                app:layout_constraintEnd_toEndOf="@+id/textView38"
+                app:layout_constraintTop_toBottomOf="@+id/textView38">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible">
+
+                    <ImageView
+                        android:id="@+id/shine"
+                        android:layout_width="50dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="-50dp"
+                        android:src="@drawable/shine_gradient"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/entryFee_TV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="25"
+                        android:textColor="@color/font"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.65"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/coin_IMG"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/entryFee_TV"
+                        app:layout_constraintEnd_toStartOf="@+id/entryFee_TV"
+                        app:layout_constraintTop_toTopOf="@+id/entryFee_TV"
+                        app:srcCompat="@drawable/zcash" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="15dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Entry"
+                android:textColor="#505050"
+                android:textSize="10sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
+            <TextView
+                android:id="@+id/perKill_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="8"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView41"
+                app:layout_constraintStart_toStartOf="@+id/textView41"
+                app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Per Kill"
+                android:textColor="#505050"
+                android:textSize="10sp"
+                app:layout_constraintEnd_toStartOf="@+id/textView38"
+                app:layout_constraintStart_toEndOf="@+id/textView35"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout2"
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="10dp"
+                android:background="#EEEEEE"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView10">
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/ic_time"
+                android:backgroundTint="@color/darkGrey"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/matchDate_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Match on 31 Dec 2021"
+                android:textColor="@color/darkGrey"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+                app:layout_constraintStart_toEndOf="@+id/imageView10"
+                app:layout_constraintTop_toTopOf="@+id/imageView10" />
+
+            <Button
+                android:id="@+id/priceDist_BTN"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/ic_up_arrow"
+                android:backgroundTint="@color/darkGrey"
+                app:layout_constraintBottom_toBottomOf="@+id/prizePool_TV"
+                app:layout_constraintStart_toEndOf="@+id/prizePool_TV"
+                app:layout_constraintTop_toTopOf="@+id/prizePool_TV" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/priceDistVIew_CL"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="@+id/liveAnim_LT"
+                app:layout_constraintStart_toStartOf="@+id/prizePool_TV"
+                app:layout_constraintTop_toBottomOf="@+id/prizePool_TV">
+
+                <TextView
+                    android:id="@+id/thirdPrice_TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="₹50"
+                    android:textColor="@color/grey"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@+id/secondPrice_TV"
+                    app:layout_constraintTop_toTopOf="@+id/textView39" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="1dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Rank #3"
+                    android:textColor="@color/grey"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/textView12"
+                    app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Rank #2"
+                    android:textColor="@color/grey"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toStartOf="@+id/textView9"
+                    app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+                <TextView
+                    android:id="@+id/firstPrice_TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="₹100"
+                    android:textColor="@color/grey"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/textView9" />
+
+                <TextView
+                    android:id="@+id/secondPrice_TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="₹75"
+                    android:textColor="@color/grey"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@+id/firstPrice_TV"
+                    app:layout_constraintTop_toTopOf="@+id/textView12" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Rank #1"
+                    android:textColor="@color/grey"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/matchNumber_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="#Match03"
+                android:textColor="@color/darkGrey"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView25"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView25" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

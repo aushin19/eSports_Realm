@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable-v24/card_bg.xml" value="0.17533783783783785" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable-v24/card_bg2.xml" value="0.17533783783783785" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable-v24/card_bg3.xml" value="0.17533783783783785" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable-v24/card_bg4.xml" value="0.17533783783783785" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable-v24/gradient_background_3.xml" value="0.267" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable-v24/result_gradient.xml" value="0.17533783783783785" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/circle.xml" value="0.17533783783783785" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/dotted_line.xml" value="0.267" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/ic_check.xml" value="0.2483108108108108" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/ic_code.xml" value="0.3445" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/ic_empty_box.xml" value="0.3465" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/outline.xml" value="0.267" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/progress_corner.xml" value="0.267" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/round_top.xml" value="0.2483108108108108" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/shine_gradient.xml" value="0.17533783783783785" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/sparkle_bg.xml" value="0.3465" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/week_border.xml" value="0.17533783783783785" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/weekly_leaderboard_first.xml" value="0.17533783783783785" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/weekly_leaderboard_second.xml" value="0.17533783783783785" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/weekly_leaderboard_third.xml" value="0.17533783783783785" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/winner_gradient.xml" value="0.17533783783783785" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/winners_card_band.xml" value="0.17533783783783785" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/winners_icon.xml" value="0.17533783783783785" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/withdraw_tip.xml" value="0.17533783783783785" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout-v28/activity_all_notification.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/activity_all_notification.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/activity_billing_service.xml" value="0.176" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/activity_main.xml" value="0.16486486486486487" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/activity_profile.xml" value="0.176" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/activity_register.xml" value="0.16486486486486487" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/all_notification_list.xml" value="0.5" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/bottomsheet.xml" value="0.33" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/fragment_login.xml" value="0.33" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/fragment_my_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/fragment_my_ongoing.xml" value="0.16486486486486487" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/fragment_my_results.xml" value="0.16486486486486487" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/fragment_my_wallet.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/fragment_signup.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/game_cards_list.xml" value="0.5" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/ongoing_game_cards_list.xml" value="0.4" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/outline_text_box.xml" value="0.16925675675675675" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/result_cards_list.xml" value="0.4" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/ripple.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/ripple_effect.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/room_details.xml" value="0.5" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/scratch_card.xml" value="0.33" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/scratch_fab.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/shimmer_placeholder.xml" value="0.33" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/shimmer_placeholder_2.xml" value="0.2" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/shimmer_placeholder_3.xml" value="0.2" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/sjimmer_placeholder_3.xml" value="0.176" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/slide_item_container.xml" value="0.16486486486486487" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/test.xml" value="0.5" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/transaction_list.xml" value="0.5" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/eSportRealm/app/src/main/res/menu/bottom_menu.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/eSportRealm/app/src/main/res/layout-v28/activity_all_notification.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/activity_all_notification.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/activity_home.xml" value="0.536" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/all_notification_list.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/fragment_my_dashboard.xml" value="0.16486486486486487" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/fragment_my_ongoing.xml" value="0.16486486486486487" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/fragment_my_results.xml" value="0.16486486486486487" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/fragment_my_wallet.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/game_cards_list.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/ongoing_game_cards_list.xml" value="0.4" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/result_cards_list.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/shimmer_placeholder.xml" value="0.16486486486486487" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/shimmer_placeholder_2.xml" value="0.16486486486486487" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/shimmer_placeholder_3.xml" value="0.16486486486486487" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/transaction_list.xml" value="0.4" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/wallet_layout.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable-v24/card_bg2.xml" value="0.1462837837837838" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable-v24/gradient_background_2.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable-v24/gradient_background_3.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/circle.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/dotted_line.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/gradient_background.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/gradient_background_2.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/ic_arrow_forward.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/ic_gamer.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/ic_headphone_profile.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/ic_headset_profile.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/ic_profile.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/ic_user.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/progress_corner.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/round_bottom.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/round_top.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/drawable/shine_gradient.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/activity_billing_service.xml" value="0.209375" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/activity_player_profile.xml" value="0.209375" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/activity_profile.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/activity_register.xml" value="0.209375" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/activity_signup_login.xml" value="0.209375" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/bottomsheet.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/fragment_my_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/fragment_my_ongoing.xml" value="0.209375" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/fragment_my_profile.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/fragment_my_referral.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/fragment_my_results.xml" value="0.209375" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/fragment_my_wallet.xml" value="0.21" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/fragment_ongoing.xml" value="0.209375" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/fragment_signup.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/game_cards.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/game_cards_list.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/ongoing_game_cards_list.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/plans_add_money.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/result_cards_list.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/scratch_card.xml" value="0.1358108108108108" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/scratch_fab.xml" value="0.1358108108108108" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/shimmer_placeholder.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/slide_item_container.xml" value="0.209375" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/test.xml" value="0.21" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/eSportRealm/app/src/main/res/layout/transaction_list.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="SuppressKotlinCodeStyleNotification">
+    <option name="disableForAll" value="true" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.23783783783783785" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
