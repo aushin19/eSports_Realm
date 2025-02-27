@@ -3,6 +3,8 @@
 ## 🎮 Overview
 **eSports Realm** is a competitive gaming platform designed for mobile and PC gamers to participate in live tournaments, earn in-game coins, and withdraw real cash rewards. The app provides a seamless and thrilling experience for esports enthusiasts.
 
+![Logo](https://github.com/aushin19/eSports_Realm/blob/master/app/vid.gif?raw=true)
+
 ## 🚀 Features
 - 🔥 **Live Tournaments**: Join real-time esports competitions.
 - 💰 **Earn Coins**: Win matches and earn coins as rewards.
